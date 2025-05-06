@@ -21,7 +21,6 @@ console.log(Array.isArray(value) ? "Это массив" : "Неизвестны
 value = { name: "Erbol" };
 console.log(typeof value === "object" && !Array.isArray(value) && value !== null ? "Это объект" : "Неизвестный тип");
 
-// Задание 2
 let age = prompt("Введите ваш возраст:");
 age = Number(age);
 
